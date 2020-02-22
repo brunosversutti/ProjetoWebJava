@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Projeto AID</title> 
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstra-formulario.css">
+	<link rel="stylesheet" type="text/css" href="css/AIDIndex.css">
+
+</head>
+<body>
+
+
+
+	<div id="caixa" class="container">
+		<div class="col-sm-10">
+			<br>
+			<p>
+		<h3>Bem-Vindo <img src="https://images.vexels.com/media/users/3/153708/isolated/preview/93ff71fae04deba3cc47c7aafb4a1dcc-chap--u-de-formatura---cone-plana-by-vexels.png" width="50" height="50" /></h3>
+
+			</p>
+			<div class="form-grupo">
+				<input type="email" class="form-control" id="email" placeholder="Digite seu RA" >
+			</div>
+			<br>
+
+		<div class="form-grupo">
+			<input type="password" class="form-control" id="senha" placeholder="Digite sua senha" >
+		</div>
+		<br>
+		
+	<button type="submit" class="btn btn-primary" >Entrar</button>
+	
+	</div>
+</div>
+
+<div class="container">
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+      	<button type="button" class="card-link" data-toggle="collapse" href="#collapseOne">Cadastrar</button>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          
+        	<div class="row">
+			<div class="col-sm-8">
+				<h3>Cadastre-se</h3>
+				<form>
+
+					<div class="form-grupo">
+						<label for="nome">Nome</label>
+						<input type="text" class="form-control" id="nome">
+					</div>
+
+					<div class="form-grupo">
+						<label for="email">E-mail</label>
+						<input type="email" class="form-control" id="email">
+					</div>
+					
+					<div class="form-grupo">
+						<label for="senha">Senha</label>
+						<input type="password" class="form-control" id="senha">
+					</div>
+					<br>
+					<button type="submit" class="btn btn-default">Cadastrar</button>
+				</form>
+			</div>	
+		</div>			  
+       </div>
+     </div>
+   </div>     
+  </div>
+</div>
+   
+  </div>
+</div>
+
+<script type="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="boostrap/js/boostrap.min.js"></script>
+
+</body>
+</html>

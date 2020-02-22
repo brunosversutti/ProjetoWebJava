@@ -1,0 +1,117 @@
+*  {
+	margin:0;
+	padding:0;
+}
+html, body{
+	height: 100%;
+}
+header{
+	height: 75px;
+	background-color: #51AEA8;
+	color: #fff;
+}
+.logo{
+	padding-top: 25px;
+}
+#menuprincipal{
+	float: right;
+	text-decoration: none;
+}
+#menuprincipal ul li{
+	display: inline-block;
+	font-size: 18px;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+#menuprincipal ul li a{
+	color: #ffffff;
+}
+#menuprincipal ul li a:hover{
+text-decoration: none;
+	border-bottom: 3px solid #F4FD8A;
+}
+h2{
+	color: #474843;
+}
+.botoes{
+	text-decoration: none;
+	text-align: right;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 5px;
+	height:75px;
+	display:block;
+	border: 3px solid #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	color: #9FC818;
+	margin: 3px;
+}
+.botoes:hover{
+	text-decoration: none;
+	color: #9FC818;
+	border: 3px solid #9FC818;
+}
+.botao_aluno{
+	background: url('../content/imagens/aluno.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;	
+}
+.botao_prof{
+	background: url('../content/imagens/prof.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_adm{
+	background: url('../content/imagens/adm.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_curso{
+	background: url('../content/imagens/curso.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_disciplina{
+	background: url('../content/imagens/disciplina.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_semestre{
+	background: url('../content/imagens/semestre.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_cidade{
+	background: url('../content/imagens/cidade.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_notas{
+
+	background: url('../content/imagens/notas.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_atividade{
+
+	background: url('../content/imagens/atividade.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+.botao_download{
+
+	background: url('../content/imagens/adm.png') no-repeat left center;
+	background-color: #ffffff;
+	width: 260px;
+}
+footer{
+	background-color:#EBEBAD;
+	border-top: 3px solid #51AEA8;
+	bottom: 0;
+	margin-top: 30px;
+	position: relative;
+	width: 100%;
+}

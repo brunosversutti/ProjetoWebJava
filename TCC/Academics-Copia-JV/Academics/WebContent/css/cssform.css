@@ -1,0 +1,54 @@
+
+#header{
+	background-color: #123834;
+	color: #ffffff;
+	font-size: 12pt;
+	text-transform: uppercase;
+	height: 80px;
+	padding: 15px;
+	border-bottom: 3px solid #EB6607;
+}
+#header img{
+	max-width: 200px;
+}
+.nav ul{
+	padding-top: 5%;
+	max-width: 350px;
+	word-spacing: 5px;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav ul li a{
+	color: #ffffff;
+}
+.nav ul li a:hover{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.btn-primary{
+	background-color: #EB6607;
+	border: #EB6607;
+}
+.btn-primary:hover{
+	background-color: #d45800;
+}
+.titulo_sidebar{
+	border-bottom: 3px solid #398078;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	background-color: #f3f2e6;
+	color: #123834;
+	font-weight: bold;
+}
+.menu_sidebar{
+	color: #EB6607;
+}
+.menu_sidebar>ul li a{
+	color: #EB6607;
+}
+.formulario{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,78 @@
+<!--Janela-->
+  <form class="modal fade" id="janelalogin">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Efetuar Login</h4>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <!--Corpo-->
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="user">Usuário</label>
+            <input type="text" name="user" id="user" class="form-control" placeholder="Digite seu usuário" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua senha" required>
+          </div>
+        </div>
+        <!--Rodapé-->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal"> Cancelar </button>
+          <button type="submit" class="btn btn-primary"> Logar </button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <!--Janela-->
+  <form class="modal fade" id="janelaregistro">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Efetuar Cadastro</h4>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <script >
+            function comparePassword(){
+              var senha = form1.senha.value;
+              var rep_senha = form1.rep_senha.value;
+              if (senha != rep_senha) {
+                alert('Senhas diferentes');
+                form1.senha.focus();
+                return false;
+}
+            }
+        </script>
+        <!--Corpo-->
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class="form-group">
+            <label for="user">Usuário</label>
+            <input type="text" name="user" id="user" class="form-control" placeholder="Digite seu usuário" required>
+          </div>
+          <div class="form-group" >
+            <label for="password">Senha</label>
+            <input type="password" name="form1" id="senha" class="form-control" placeholder="Digite sua senha" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Repita a senha</label>
+            <input type="password" name="form1" id="rep_senha" class="form-control" oninput="comparePassword(this.senha)" placeholder="Digite sua senha novamente" required>
+          </div>
+        </div>
+        <!--Rodapé-->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal"> Cancelar </button>
+          <button type="submit" class="btn btn-primary" onclick="comparePassword()"> Cadastrar </button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <!--Janela-->
